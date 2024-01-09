@@ -12,7 +12,9 @@
 			<use xlink:href="#icon-xiangsu_tuzi3"></use>
 		</svg>
 
-
+		      <div>
+		        <span>{{$t('main.message')}}</span>
+		      </div>
 
 		<button>goto home</button>
 	</view>
