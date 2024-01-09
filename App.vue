@@ -14,5 +14,7 @@
 
 <style>
 	@import '@/uni_modules/uview-ui/theme.scss';
+	@import 'pages/common/global.scss'
+	@import '@/static/iconfont/iconfont.css'
 	
 </style>
