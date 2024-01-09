@@ -15,6 +15,7 @@ Vue.use(uView)
 // 使用国际化插件 Vue |18n 
 import i18n from '@/common/lang/index.js'
 
+
 // 引入iconfont
 import '@/static/iconfont/iconfont.css';
 import '@/static/iconfont/iconfont.js';

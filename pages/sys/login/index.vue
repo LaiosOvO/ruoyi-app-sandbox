@@ -8,7 +8,7 @@
 		</svg>
 
 
-		<svg class="icon svg-icon" aria-hidden="true">
+		<svg class="icon" aria-hidden="true">
 			<use xlink:href="#icon-xiangsu_tuzi3"></use>
 		</svg>
 

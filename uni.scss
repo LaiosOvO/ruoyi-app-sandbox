@@ -15,16 +15,19 @@
 
 /* iconfont全局变量 */
 .icon{
-  width: 1em; height: 1em;
-  vertical-align: -0.15em;
-  fill: currentColor;
+  width: 100rpx; height: 100rpx;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
   overflow: hidden;
 }
 
+.grid-icon {
+	
+}
+
 .gticon {
-  width: 1em;
-  height: 1em;
-  vertical-align: -0.15em;
+  width: 40px;
+  height: 40px;
   fill: currentColor;
   overflow: hidden;
 }

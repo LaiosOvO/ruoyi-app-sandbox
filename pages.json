@@ -6,15 +6,6 @@
 				"navigationBarTitleText": "登录"
 			}
 		}
-	    ,{
-            "path" : "pages/sys/book/index",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        }
         ,{
             "path" : "pages/sys/home/index",
             "style" :                                                                                    
@@ -24,6 +15,14 @@
             }
             
         }
+		,{
+		    "path" : "pages/sys/msg/index",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "消息",
+		        "enablePullDownRefresh": false
+		    }
+		}
         ,{
             "path" : "pages/sys/workbench/index",
             "style" :                                                                                    
@@ -31,8 +30,25 @@
                 "navigationBarTitleText": "工作台",
                 "enablePullDownRefresh": false
             }
+        }
+	    ,{
+            "path" : "pages/sys/book/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "通讯录",
+                "enablePullDownRefresh": false
+            }
             
         }
+		,{
+		    "path" : "pages/sys/user/index",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "我的",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
@@ -40,5 +56,43 @@
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
 	},
-	"uniIdRouter": {}
+	"uniIdRouter": {},
+		"tabBar": {
+			"color": "#333333",
+			"selectedColor": "#4094ff",
+			"backgroundColor": "#ffffff",
+			"borderStyle": "white",
+			"list": [
+				 {
+					"pagePath": "pages/sys/msg/index",
+					"iconPath": "static/laios/tabbar/msg_1.png",
+					"selectedIconPath": "static/laios/tabbar/msg_1.png",
+					"text": "消息"
+				},
+				// {
+				// 	"pagePath": "pages/sys/home/index",
+				// 	"iconPath": "static/aidex/tabbar/home_1.png",
+				// 	"selectedIconPath": "static/aidex/tabbar/home_2.png",
+				// 	"text": "首页"
+				// },
+				{
+					"pagePath": "pages/sys/workbench/index",
+					"iconPath": "static/laios/tabbar/apply_1.png",
+					"selectedIconPath": "static/laios/tabbar/apply_2.png",
+					"text": "工作台"
+				},
+				{
+					"pagePath": "pages/sys/book/index",
+					"iconPath": "static/laios/tabbar/book_1.png",
+					"selectedIconPath": "static/laios/tabbar/book_1.png",
+					"text": "通讯录"
+				},
+				{
+					"pagePath": "pages/sys/user/index",
+					"iconPath": "static/laios/tabbar/my_1.png",
+					"selectedIconPath": "static/laios/tabbar/my_1.png",
+					"text": "我的"
+				}
+			]
+		}
 }
